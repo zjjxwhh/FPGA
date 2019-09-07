@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="vga_digital_clock">
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_digital_clock|altsyncram:mem_0_rtl_0" CBX_FILE_NAME="altsyncram_bu81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_digital_clock|altsyncram:mem_4_rtl_0" CBX_FILE_NAME="altsyncram_fu81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_digital_clock|altsyncram:mem_8_rtl_0" CBX_FILE_NAME="altsyncram_ju81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_digital_clock|altsyncram:mem_1_rtl_0" CBX_FILE_NAME="altsyncram_cu81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_digital_clock|altsyncram:mem_5_rtl_0" CBX_FILE_NAME="altsyncram_gu81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_digital_clock|altsyncram:mem_9_rtl_0" CBX_FILE_NAME="altsyncram_ku81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_digital_clock|altsyncram:mem_2_rtl_0" CBX_FILE_NAME="altsyncram_du81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_digital_clock|altsyncram:mem_6_rtl_0" CBX_FILE_NAME="altsyncram_hu81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_digital_clock|my_rom:my_rom_dut|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_bt91.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_digital_clock|altsyncram:mem_3_rtl_0" CBX_FILE_NAME="altsyncram_eu81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_digital_clock|altsyncram:mem_7_rtl_0" CBX_FILE_NAME="altsyncram_iu81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_digital_clock|altsyncram:mem_fuhao_rtl_0" CBX_FILE_NAME="altsyncram_sv81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_digital_clock|pll:pll_inst|altpll:altpll_component" CBX_FILE_NAME="pll_altpll.v"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|vga_digital_clock|vga_ctrl:vga_ctrl_inst|altshift_taps:addr0_en_r_rtl_0" CBX_FILE_NAME="shift_taps_u4m.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

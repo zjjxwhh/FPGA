@@ -1,0 +1,55 @@
+# Reading D:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do key_scan_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA/key_scan/src {D:/FPGA/key_scan/src/key_scan.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module key_scan
+# 
+# Top level modules:
+# 	key_scan
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA/key_scan/prj/../sim {D:/FPGA/key_scan/prj/../sim/key_scan_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module key_scan_tb
+# 
+# Top level modules:
+# 	key_scan_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  key_scan_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps key_scan_tb 
+# Loading work.key_scan_tb
+# Loading work.key_scan
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module key_scan_tb at D:/FPGA/key_scan/prj/../sim/key_scan_tb.v line 51
+# Simulation Breakpoint: Break in Module key_scan_tb at D:/FPGA/key_scan/prj/../sim/key_scan_tb.v line 51
+# MACRO ./key_scan_run_msim_rtl_verilog.do PAUSED at line 17
+add wave -position end  sim:/key_scan_tb/key_scan_inst/clk
+add wave -position end  sim:/key_scan_tb/key_scan_inst/rst_n
+add wave -position end  sim:/key_scan_tb/key_scan_inst/row
+add wave -position end  sim:/key_scan_tb/key_scan_inst/col
+add wave -position end  sim:/key_scan_tb/key_scan_inst/flag
+add wave -position end  sim:/key_scan_tb/key_scan_inst/data
+add wave -position end  sim:/key_scan_tb/key_scan_inst/cnt
+add wave -position end  sim:/key_scan_tb/key_scan_inst/clk_1khz
+add wave -position end  sim:/key_scan_tb/key_scan_inst/state
+add wave -position end  sim:/key_scan_tb/key_scan_inst/cnt_time
+add wave -position end  sim:/key_scan_tb/key_scan_inst/row_col
+restart
+run -all
+# Break in Module key_scan_tb at D:/FPGA/key_scan/prj/../sim/key_scan_tb.v line 51
+run -all

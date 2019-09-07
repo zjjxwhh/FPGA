@@ -1,0 +1,73 @@
+# Reading D:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do seg_driver_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA/seg_driver/src {D:/FPGA/seg_driver/src/freq.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module freq
+# 
+# Top level modules:
+# 	freq
+# vlog -vlog01compat -work work +incdir+D:/FPGA/seg_driver/src {D:/FPGA/seg_driver/src/seg_driver.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module seg_driver
+# 
+# Top level modules:
+# 	seg_driver
+# vlog -vlog01compat -work work +incdir+D:/FPGA/seg_driver/src {D:/FPGA/seg_driver/src/seg7.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# vlog -vlog01compat -work work +incdir+D:/FPGA/seg_driver/src {D:/FPGA/seg_driver/src/shift_data.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module shift_data
+# 
+# Top level modules:
+# 	shift_data
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA/seg_driver/prj/../sim {D:/FPGA/seg_driver/prj/../sim/seg_driver_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module seg_driver_tb
+# 
+# Top level modules:
+# 	seg_driver_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  seg_driver_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps seg_driver_tb 
+# Loading work.seg_driver_tb
+# Loading work.seg_driver
+# Loading work.freq
+# Loading work.shift_data
+# Loading work.seg7
+# ** Warning: (vsim-3017) D:/FPGA/seg_driver/prj/../sim/seg_driver_tb.v(17): [TFMPC] - Too few port connections. Expected 5, found 4.
+# 
+#         Region: /seg_driver_tb/seg_driver_inst
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+add wave -position insertpoint sim:/seg_driver_tb/seg_driver_inst/shift_data_dut/*
+add wave -position insertpoint sim:/seg_driver_tb/seg_driver_inst/seg7_dut/*
+run -all
+# Break key hit 
+run
+# Break key hit 
+restart
+# ** Warning: (vsim-3017) D:/FPGA/seg_driver/prj/../sim/seg_driver_tb.v(17): [TFMPC] - Too few port connections. Expected 5, found 4.
+# 
+#         Region: /seg_driver_tb/seg_driver_inst
+# Break key hit 
+run -all

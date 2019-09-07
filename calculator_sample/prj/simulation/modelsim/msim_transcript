@@ -1,0 +1,102 @@
+# Reading D:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# ERROR: No extended dataflow license exists
+# do key_scan_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/15929/Desktop/calculator/src {C:/Users/15929/Desktop/calculator/src/beep_driver.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module beep_driver
+# 
+# Top level modules:
+# 	beep_driver
+# vlog -vlog01compat -work work +incdir+C:/Users/15929/Desktop/calculator/src {C:/Users/15929/Desktop/calculator/src/compute.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module compute
+# 
+# Top level modules:
+# 	compute
+# vlog -vlog01compat -work work +incdir+C:/Users/15929/Desktop/calculator/src {C:/Users/15929/Desktop/calculator/src/seg7.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# vlog -vlog01compat -work work +incdir+C:/Users/15929/Desktop/calculator/src {C:/Users/15929/Desktop/calculator/src/freq.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module freq
+# 
+# Top level modules:
+# 	freq
+# vlog -vlog01compat -work work +incdir+C:/Users/15929/Desktop/calculator/src {C:/Users/15929/Desktop/calculator/src/top.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# vlog -vlog01compat -work work +incdir+C:/Users/15929/Desktop/calculator/src {C:/Users/15929/Desktop/calculator/src/key_scan.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module key_scan
+# 
+# Top level modules:
+# 	key_scan
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/15929/Desktop/calculator/prj/../sim {C:/Users/15929/Desktop/calculator/prj/../sim/top_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  top_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps top_tb 
+# Loading work.top_tb
+# Loading work.top
+# Loading work.freq
+# Loading work.key_scan
+# Loading work.compute
+# Loading work.seg7
+# Loading work.beep_driver
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do wave.do
+# ** Error: (vish-4014) No objects found matching '/top_tb/top_inst/compute_dut/data'.
+# Executing ONERROR command at macro ./wave.do line 15
+# ** Error: (vish-4014) No objects found matching '/top_tb/top_inst/compute_dut/beep'.
+# Executing ONERROR command at macro ./wave.do line 16
+# ** Error: (vish-4014) No objects found matching '/top_tb/top_inst/compute_dut/cnt'.
+# Executing ONERROR command at macro ./wave.do line 17
+# ** Error: (vish-4014) No objects found matching '/top_tb/top_inst/compute_dut/clk_1khz'.
+# Executing ONERROR command at macro ./wave.do line 18
+# ** Error: (vish-4014) No objects found matching '/top_tb/top_inst/key_scan_dut/cnt'.
+# Executing ONERROR command at macro ./wave.do line 33
+# ** Error: (vish-4014) No objects found matching '/top_tb/top_inst/key_scan_dut/clk_1khz'.
+# Executing ONERROR command at macro ./wave.do line 34
+# ** Error: (vish-4014) No objects found matching '/top_tb/top_inst/seg_driver_dut/clk'.
+# Executing ONERROR command at macro ./wave.do line 38
+# ** Error: (vish-4014) No objects found matching '/top_tb/top_inst/seg_driver_dut/rst_n'.
+# Executing ONERROR command at macro ./wave.do line 39
+# ** Error: (vish-4014) No objects found matching '/top_tb/top_inst/seg_driver_dut/data_in'.
+# Executing ONERROR command at macro ./wave.do line 40
+# ** Error: (vish-4014) No objects found matching '/top_tb/top_inst/seg_driver_dut/sel'.
+# Executing ONERROR command at macro ./wave.do line 41
+# ** Error: (vish-4014) No objects found matching '/top_tb/top_inst/seg_driver_dut/seg'.
+# Executing ONERROR command at macro ./wave.do line 42
+# ** Error: (vish-4014) No objects found matching '/top_tb/top_inst/seg_driver_dut/clk_1khz'.
+# Executing ONERROR command at macro ./wave.do line 43
+restart
+run -all
+# Break key hit 
+# Simulation stop requested.

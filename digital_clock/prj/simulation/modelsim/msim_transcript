@@ -1,0 +1,69 @@
+# Reading D:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do digital_clock_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA/digital_clock/src {D:/FPGA/digital_clock/src/digital_clock.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module digital_clock
+# 
+# Top level modules:
+# 	digital_clock
+# vlog -vlog01compat -work work +incdir+D:/FPGA/digital_clock/src {D:/FPGA/digital_clock/src/freq.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module freq
+# 
+# Top level modules:
+# 	freq
+# vlog -vlog01compat -work work +incdir+D:/FPGA/digital_clock/src {D:/FPGA/digital_clock/src/seg7.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# vlog -vlog01compat -work work +incdir+D:/FPGA/digital_clock/src {D:/FPGA/digital_clock/src/clock_control.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module clock_control
+# 
+# Top level modules:
+# 	clock_control
+# vlog -vlog01compat -work work +incdir+D:/FPGA/digital_clock/src {D:/FPGA/digital_clock/src/bin_bcd.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bin_bcd
+# 
+# Top level modules:
+# 	bin_bcd
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA/digital_clock/prj/../sim {D:/FPGA/digital_clock/prj/../sim/digital_clock_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module digital_clock_tb
+# 
+# Top level modules:
+# 	digital_clock_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  digital_clock_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps digital_clock_tb 
+# Loading work.digital_clock_tb
+# Loading work.digital_clock
+# Loading work.freq
+# Loading work.clock_control
+# Loading work.bin_bcd
+# Loading work.seg7
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+do wave.do
+restart
+run -all
+run -all

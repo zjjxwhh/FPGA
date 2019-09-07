@@ -1,0 +1,10 @@
+//顶层模块：不做功能描述，只做模块间连线
+module top1(a,b,d,c);
+
+	input a;
+	input b;
+	input c;
+	
+	output d;
+
+endmodule 

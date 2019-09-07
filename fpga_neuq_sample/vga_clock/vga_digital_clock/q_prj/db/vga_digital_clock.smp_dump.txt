@@ -1,0 +1,14 @@
+
+State Machine - |vga_digital_clock|key_filter:key_filter_add|c_state
+Name c_state.OFF_SHAKE c_state.KEY_ON c_state.ON_SHAKE c_state.KEY_OFF 
+c_state.KEY_OFF 0 0 0 0 
+c_state.ON_SHAKE 0 0 1 1 
+c_state.KEY_ON 0 1 0 1 
+c_state.OFF_SHAKE 1 0 0 1 
+
+State Machine - |vga_digital_clock|key_filter:key_filter_adjust|c_state
+Name c_state.OFF_SHAKE c_state.KEY_ON c_state.ON_SHAKE c_state.KEY_OFF 
+c_state.KEY_OFF 0 0 0 0 
+c_state.ON_SHAKE 0 0 1 1 
+c_state.KEY_ON 0 1 0 1 
+c_state.OFF_SHAKE 1 0 0 1 

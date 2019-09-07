@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\FPGA\and_gate\prj\simulation\modelsim
+vand_gate
+INX?DX;71aI_B>CgCKeMcV2
+V0GD7BMeS^hU>o0CbHM`ZV2
+Z1 dD:\FPGA\and_gate\prj\simulation\modelsim
+w1567415449
+8and_gate_min_1200mv_0c_fast.vo
+Fand_gate_min_1200mv_0c_fast.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 PJHAeoXf^enJUNK^BK@VU0
+!s85 0
+!s108 1567415816.676000
+!s107 and_gate_min_1200mv_0c_fast.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|and_gate_min_1200mv_0c_fast.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vand_gate_tb
+!i10b 1
+!s100 65[?9fo[Q?ImS30U5Vdgb1
+IAhlHegH?KA4T7BcdUD2KU1
+VB7Fd>f5l``CMJaUOkic<F3
+R1
+w1567414338
+8D:/FPGA/and_gate/prj/../sim/and_gate_tb.v
+FD:/FPGA/and_gate/prj/../sim/and_gate_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1567415816.814000
+!s107 D:/FPGA/and_gate/prj/../sim/and_gate_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/and_gate/prj/../sim|D:/FPGA/and_gate/prj/../sim/and_gate_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/FPGA/and_gate/prj/../sim -O0

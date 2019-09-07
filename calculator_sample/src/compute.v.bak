@@ -1,0 +1,118 @@
+//计算模块的表示
+module compute(clk,rst_n,flag,data);
+	
+	input clk;
+	input rst_n;
+	input flag;
+	
+	output reg [23:0] data;
+	
+	`define s0 2'b00				//定参
+   `define s1 2'b01
+   `define s2 2'b10
+	`define s3 2'b11
+	
+	reg [1:0] state_s;   //状态变量
+	reg [23:0] num1,num2,data_in,data_t;	//信号变量
+	reg [3:0] flag_s;    //运算符
+	
+	always @ (posedge clk or negedge rst_n)
+		begin
+			if(!rst_n)
+				begin
+					data <= 24'b0;
+					state_s <= `s0;
+					num1 <= 24'b0;
+					num2 <= 24'b0; 
+					data_t <= 24'b0;
+					flag_s <= 4'b0;
+					data_in <= 24'b0;
+				end
+			else
+				begin
+					case (state_s)
+						`s0:begin
+								if(flag)	//如果有一次按下
+									begin
+										if(key_num <= 4'd9)  //键值小于或等于9便是有效
+											begin
+												num1 <= num1*10 + key_num;  //BCD码转二进制
+												data <= {data[19:0],key_num};  //数码管移位
+											end
+										if(key_num > 4'd9 && key_num < 4'd14) //10 -- 13 表示运算符
+											begin
+												data <= 24'b0;
+												state_s <= `s2;
+												flag_s <= key_num;
+											end
+										else if(key_num == 14)
+													begin
+														data <= 24'b0;
+														state_s <= `s0;
+														num1 <= 24'b0;
+														num2 <= 24'b0; 
+														flag_s <= 4'b0;
+														data_in <= 24'b0;
+													end
+										else   //否则无效信号
+											state_s <= `s0;
+									end
+							end
+						`s1:begin
+								if(flag)//如果有一次按下
+				 				begin
+									if(key_num <= 4'd9 )  //键值小于或等于9便是有效
+										begin
+											num2 <= 10*num2 +key_num;//BCD码转二进制
+											data <= {data[19:0],key_num};//数码管移位
+										end
+									if(key_num > 4'd9 && key_num < 4'd14)//10 -- 13 表示运算符
+											begin
+												state_s <= `s1;
+											end	
+									if(key_num == 15) //表示等于
+										begin		
+											state_s <= `s2;
+										end
+								end		
+							end
+						`s2:begin
+								state_s <= `s3;
+								case (flag_s)
+										
+									4'd10 :	begin  //加运算
+													data_in <= num1 + num2; 
+													state_s <= `s3;
+												end
+								
+									4'd11 :	begin  //减运算
+													data_in <= num1 - num2;
+													state_s <= `s3;
+												end
+									
+									4'd12 :	begin  //乘运算
+													data_in <= num1 * num2;
+													state_s <= `s3;
+												end
+									
+									4'd13 :	begin  //除运算
+													data_in <= num1 / num2;
+													state_s <= `s3;
+													end
+								endcase
+							end
+						`s3:begin    //二进制转为BCD码显示到对应的数码管上
+								data[3:0] = data_in % 10;
+								data[7:4] = data_in / 10 % 10;
+								data[11:8] = data_in / 100 % 10;	
+								data[15:12] = data_in / 1000 % 10;
+								data[19:16] = data_in / 10000 % 10;
+								data[23:20] = data_in / 100000;
+								state_s <= `s0;
+								data_in <= 24'b0;
+							end
+						default: state_s <= `s0;
+					endcase
+				end
+		end
+endmodule

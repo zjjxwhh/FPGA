@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="digital_clock">
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_clock|bin_bcd:bin_bcd_hour|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_jhm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_clock|bin_bcd:bin_bcd_min|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_m9m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_clock|bin_bcd:bin_bcd_hour|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_m9m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_clock|bin_bcd:bin_bcd_min|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_m9m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_clock|bin_bcd:bin_bcd_sec|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_jhm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_clock|bin_bcd:bin_bcd_sec|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_m9m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_clock|bin_bcd:bin_bcd_hour|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_m9m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_clock|bin_bcd:bin_bcd_min|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_jhm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|digital_clock|bin_bcd:bin_bcd_sec|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_m9m.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

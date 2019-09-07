@@ -1,0 +1,19 @@
+|top1
+a => a.IN1
+b => b.IN1
+c => c.IN1
+d <= and_gate:and_gate_dut2.s
+
+
+|top1|and_gate:and_gate_dut1
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top1|and_gate:and_gate_dut2
+a => s.IN0
+b => s.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+
+

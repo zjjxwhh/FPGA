@@ -1,0 +1,125 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\FPGA\digital_clock\prj\simulation\modelsim
+vbin_bcd
+I[8FVU]S6jS5QN>;1dJ8zo2
+VRR<6FaUnUIemZ@3_mNL3W1
+Z1 dD:\FPGA\digital_clock\prj\simulation\modelsim
+w1567667905
+8D:/FPGA/digital_clock/src/bin_bcd.v
+FD:/FPGA/digital_clock/src/bin_bcd.v
+L0 2
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/FPGA/digital_clock/src -O0
+!i10b 1
+!s100 <B[GcfR>8?XTDjbiQ3=S03
+!s85 0
+!s108 1567671028.178000
+!s107 D:/FPGA/digital_clock/src/bin_bcd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/digital_clock/src|D:/FPGA/digital_clock/src/bin_bcd.v|
+!s101 -O0
+vclock_control
+IQ8`KH[@Ik7oU5kofTXk>e1
+Va855DGbdC24<l@H=W:F0O2
+R1
+w1567669166
+8D:/FPGA/digital_clock/src/clock_control.v
+FD:/FPGA/digital_clock/src/clock_control.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 AM=44j[>db2n9D7TZ[BmX1
+!s85 0
+!s108 1567671028.079000
+!s107 D:/FPGA/digital_clock/src/clock_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/digital_clock/src|D:/FPGA/digital_clock/src/clock_control.v|
+!s101 -O0
+vdigital_clock
+IY_N7KaSAjRoaIT;P`;>lR2
+V79a?gKk:RbPWGaGXC]]O70
+R1
+w1567669965
+8D:/FPGA/digital_clock/src/digital_clock.v
+FD:/FPGA/digital_clock/src/digital_clock.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 8V`1Cz5>WU?@XhfOfCae;1
+!s85 0
+!s108 1567671027.716000
+!s107 D:/FPGA/digital_clock/src/digital_clock.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/digital_clock/src|D:/FPGA/digital_clock/src/digital_clock.v|
+!s101 -O0
+vdigital_clock_tb
+!i10b 1
+!s100 l[n<ON3TZcR[8FWOoL7Vz0
+IBi^3j82Nbo@fA>nH_4cVl0
+VmZMK=fEQENK_TTHJ_2`YX1
+R1
+w1567669889
+8D:/FPGA/digital_clock/prj/../sim/digital_clock_tb.v
+FD:/FPGA/digital_clock/prj/../sim/digital_clock_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1567671028.277000
+!s107 D:/FPGA/digital_clock/prj/../sim/digital_clock_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/digital_clock/prj/../sim|D:/FPGA/digital_clock/prj/../sim/digital_clock_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/FPGA/digital_clock/prj/../sim -O0
+vfreq
+ILFb5k=RAWb0De:h=lfXRW3
+VKM;29[Le0MYX7i8Vgh:Rk3
+R1
+Z5 w1567667005
+8D:/FPGA/digital_clock/src/freq.v
+FD:/FPGA/digital_clock/src/freq.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 @?=GzI;`H9^^<AU=A`bz20
+!s85 0
+!s108 1567671027.855000
+!s107 D:/FPGA/digital_clock/src/freq.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/digital_clock/src|D:/FPGA/digital_clock/src/freq.v|
+!s101 -O0
+vseg7
+IVeFk7QVh2WS0]]]`n7IST2
+V3i[Y6jk`ldH5PogoL@]`E3
+R1
+R5
+8D:/FPGA/digital_clock/src/seg7.v
+FD:/FPGA/digital_clock/src/seg7.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 M:PCGi2z4o[U4meoc[XiW3
+!s85 0
+!s108 1567671027.971000
+!s107 D:/FPGA/digital_clock/src/seg7.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/digital_clock/src|D:/FPGA/digital_clock/src/seg7.v|
+!s101 -O0

@@ -1,0 +1,52 @@
+# Reading D:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do led_driver_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA/led_driver/src {D:/FPGA/led_driver/src/led_driver.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module led_driver
+# 
+# Top level modules:
+# 	led_driver
+# vlog -vlog01compat -work work +incdir+D:/FPGA/led_driver/src {D:/FPGA/led_driver/src/freq.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module freq
+# 
+# Top level modules:
+# 	freq
+# vlog -vlog01compat -work work +incdir+D:/FPGA/led_driver/src {D:/FPGA/led_driver/src/led_run.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module led_run
+# 
+# Top level modules:
+# 	led_run
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA/led_driver/prj/../sim {D:/FPGA/led_driver/prj/../sim/led_driver_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module led_driver_tb
+# 
+# Top level modules:
+# 	led_driver_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  led_driver_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps led_driver_tb 
+# Loading work.led_driver_tb
+# Loading work.led_driver
+# Loading work.freq
+# Loading work.led_run
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+add wave -position insertpoint sim:/led_driver_tb/led_driver_inst/led_run_dut/*

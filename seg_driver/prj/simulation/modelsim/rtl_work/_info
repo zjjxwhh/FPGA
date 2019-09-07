@@ -1,0 +1,105 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\FPGA\seg_driver\prj\simulation\modelsim
+vfreq
+If8F4[1zL@U8g0?`>S]o5h1
+VKM;29[Le0MYX7i8Vgh:Rk3
+Z1 dD:\FPGA\seg_driver\prj\simulation\modelsim
+w1567586372
+8D:/FPGA/seg_driver/src/freq.v
+FD:/FPGA/seg_driver/src/freq.v
+L0 2
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+D:/FPGA/seg_driver/src -O0
+!i10b 1
+!s100 Jk8`1QQ>M<c<53f0NciQS2
+!s85 0
+!s108 1567649125.765000
+!s107 D:/FPGA/seg_driver/src/freq.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/seg_driver/src|D:/FPGA/seg_driver/src/freq.v|
+!s101 -O0
+vseg7
+I75@gJS^bA=hbVQ2^APE_E0
+V3i[Y6jk`ldH5PogoL@]`E3
+R1
+w1567648129
+8D:/FPGA/seg_driver/src/seg7.v
+FD:/FPGA/seg_driver/src/seg7.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 T0YGHZMD?O=TKANG2b?Em3
+!s85 0
+!s108 1567649126.014000
+!s107 D:/FPGA/seg_driver/src/seg7.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/seg_driver/src|D:/FPGA/seg_driver/src/seg7.v|
+!s101 -O0
+vseg_driver
+I;<72d[B:ITCejBe<H6B8W1
+VcQBY=:56PlR1b3S8LhmDP2
+R1
+w1567648940
+8D:/FPGA/seg_driver/src/seg_driver.v
+FD:/FPGA/seg_driver/src/seg_driver.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 eSQQW8SOYE@dRb0P3=PQ12
+!s85 0
+!s108 1567649125.911000
+!s107 D:/FPGA/seg_driver/src/seg_driver.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/seg_driver/src|D:/FPGA/seg_driver/src/seg_driver.v|
+!s101 -O0
+vseg_driver_tb
+!i10b 1
+!s100 EC>YSTOXOoYizDYjCiD560
+IH]EUknSE<g^3Z>T1YaogK0
+V@mM_CQ>zVB1=?iBWWdN=L0
+R1
+w1567649091
+8D:/FPGA/seg_driver/prj/../sim/seg_driver_tb.v
+FD:/FPGA/seg_driver/prj/../sim/seg_driver_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1567649126.231000
+!s107 D:/FPGA/seg_driver/prj/../sim/seg_driver_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/seg_driver/prj/../sim|D:/FPGA/seg_driver/prj/../sim/seg_driver_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/FPGA/seg_driver/prj/../sim -O0
+vshift_data
+IfAnRm[ja3kF9mN0H1mT572
+VfZ58L[TL;JE=P1OU5R0ni2
+R1
+w1567648844
+8D:/FPGA/seg_driver/src/shift_data.v
+FD:/FPGA/seg_driver/src/shift_data.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 4Y>HjR:mB9aPLHk0H?H[C3
+!s85 0
+!s108 1567649126.125000
+!s107 D:/FPGA/seg_driver/src/shift_data.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/seg_driver/src|D:/FPGA/seg_driver/src/shift_data.v|
+!s101 -O0

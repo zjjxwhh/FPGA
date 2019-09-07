@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Sep 04 10:53:39 2019
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : led_driver
+Top-level Entity Name : led_driver
+Family : Cyclone IV E
+Total logic elements : 560
+    Total combinational functions : 385
+    Dedicated logic registers : 409
+Total registers : 409
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 1,280
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

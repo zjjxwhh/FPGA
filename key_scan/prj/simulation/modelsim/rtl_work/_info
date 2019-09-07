@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\FPGA\key_scan\prj\simulation\modelsim
+vkey_scan
+I18S3BIDz^Cf6eo;QKm>9B3
+V;1^0Dm_CV]2_i1Lhm2Sc93
+Z1 dD:\FPGA\key_scan\prj\simulation\modelsim
+w1567752625
+8D:/FPGA/key_scan/src/key_scan.v
+FD:/FPGA/key_scan/src/key_scan.v
+L0 2
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 Fl4j111cf28Zzkj@^9JoT3
+!s85 0
+!s108 1567752663.001000
+!s107 D:/FPGA/key_scan/src/key_scan.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/key_scan/src|D:/FPGA/key_scan/src/key_scan.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+D:/FPGA/key_scan/src -O0
+vkey_scan_tb
+!i10b 1
+!s100 la<j6mNeCYSd=1YkAFi6J2
+IldfOXTg_lMeVZkz`cPhdd1
+VAUO<>>[FnEYz4OVl7Q;HM1
+R1
+w1567751971
+8D:/FPGA/key_scan/prj/../sim/key_scan_tb.v
+FD:/FPGA/key_scan/prj/../sim/key_scan_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1567752663.130000
+!s107 D:/FPGA/key_scan/prj/../sim/key_scan_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/FPGA/key_scan/prj/../sim|D:/FPGA/key_scan/prj/../sim/key_scan_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+D:/FPGA/key_scan/prj/../sim -O0

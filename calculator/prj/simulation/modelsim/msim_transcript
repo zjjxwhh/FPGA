@@ -1,0 +1,120 @@
+# Reading D:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do calculator_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA/calculator/src {D:/FPGA/calculator/src/key_scan.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module key_scan
+# 
+# Top level modules:
+# 	key_scan
+# vlog -vlog01compat -work work +incdir+D:/FPGA/calculator/src {D:/FPGA/calculator/src/seg7.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module seg7
+# 
+# Top level modules:
+# 	seg7
+# vlog -vlog01compat -work work +incdir+D:/FPGA/calculator/src {D:/FPGA/calculator/src/freq.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module freq
+# 
+# Top level modules:
+# 	freq
+# vlog -vlog01compat -work work +incdir+D:/FPGA/calculator/src {D:/FPGA/calculator/src/calculator.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module calculator
+# 
+# Top level modules:
+# 	calculator
+# vlog -vlog01compat -work work +incdir+D:/FPGA/calculator/src {D:/FPGA/calculator/src/compute.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module compute
+# 
+# Top level modules:
+# 	compute
+# 
+# vlog -vlog01compat -work work +incdir+D:/FPGA/calculator/prj/../sim {D:/FPGA/calculator/prj/../sim/calculator_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module calculator_tb
+# 
+# Top level modules:
+# 	calculator_tb
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  calculator_tb
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps calculator_tb 
+# Loading work.calculator_tb
+# Loading work.calculator
+# Loading work.freq
+# Loading work.key_scan
+# Loading work.compute
+# Loading work.seg7
+# ** Warning: (vsim-3015) D:/FPGA/calculator/src/calculator.v(29): [PCDPC] - Port size (4 or 4) does not match connection size (24) for port 'data_out'. The port definition is at: D:/FPGA/calculator/src/key_scan.v(2).
+# 
+#         Region: /calculator_tb/calculator_inst/key_scan_inst
+# ** Warning: (vsim-3015) D:/FPGA/calculator/src/calculator.v(38): [PCDPC] - Port size (4 or 4) does not match connection size (24) for port 'data_in'. The port definition is at: D:/FPGA/calculator/src/compute.v(1).
+# 
+#         Region: /calculator_tb/calculator_inst/compute_inst
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break in Module calculator_tb at D:/FPGA/calculator/prj/../sim/calculator_tb.v line 63
+# Simulation Breakpoint: Break in Module calculator_tb at D:/FPGA/calculator/prj/../sim/calculator_tb.v line 63
+# MACRO ./calculator_run_msim_rtl_verilog.do PAUSED at line 21
+do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /calculator_tb/clk
+# add wave -noupdate /calculator_tb/rst_n
+# add wave -noupdate /calculator_tb/row
+# add wave -noupdate /calculator_tb/col
+# add wave -noupdate /calculator_tb/sel
+# add wave -noupdate -radix binary /calculator_tb/seg
+# add wave -noupdate -radix unsigned /calculator_tb/press_num
+# add wave -noupdate -radix hexadecimal /calculator_tb/calculator_inst/compute_inst/state
+# add wave -noupdate -radix unsigned /calculator_tb/calculator_inst/compute_inst/data_in
+# add wave -noupdate -radix hexadecimal /calculator_tb/calculator_inst/compute_inst/data_out
+# add wave -noupdate -radix unsigned /calculator_tb/calculator_inst/compute_inst/num1
+# add wave -noupdate -radix unsigned /calculator_tb/calculator_inst/compute_inst/num2
+# add wave -noupdate -radix binary /calculator_tb/calculator_inst/compute_inst/flag
+# add wave -noupdate -radix unsigned /calculator_tb/calculator_inst/compute_inst/operate1
+# add wave -noupdate -radix unsigned /calculator_tb/calculator_inst/compute_inst/operate2
+# add wave -noupdate /calculator_tb/calculator_inst/compute_inst/zero
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {80565379 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 1
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {80554580 ps} {80585420 ps}
+restart
+# ** Warning: (vsim-3015) D:/FPGA/calculator/src/calculator.v(29): [PCDPC] - Port size (4 or 4) does not match connection size (24) for port 'data_out'. The port definition is at: D:/FPGA/calculator/src/key_scan.v(2).
+# 
+#         Region: /calculator_tb/calculator_inst/key_scan_inst
+# ** Warning: (vsim-3015) D:/FPGA/calculator/src/calculator.v(38): [PCDPC] - Port size (4 or 4) does not match connection size (24) for port 'data_in'. The port definition is at: D:/FPGA/calculator/src/compute.v(1).
+# 
+#         Region: /calculator_tb/calculator_inst/compute_inst
+run -all
+# Break in Module calculator_tb at D:/FPGA/calculator/prj/../sim/calculator_tb.v line 63

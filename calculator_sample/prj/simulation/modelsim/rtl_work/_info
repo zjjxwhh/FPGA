@@ -1,0 +1,145 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\15929\Desktop\calculator\prj\simulation\modelsim
+vbeep_driver
+I:=zOo=zYiC2CiZi>9f=kc0
+VX;h^NMel6mKUg7M7<Ka]e3
+Z1 dC:\Users\15929\Desktop\calculator\prj\simulation\modelsim
+w1567175891
+8C:/Users/15929/Desktop/calculator/src/beep_driver.v
+FC:/Users/15929/Desktop/calculator/src/beep_driver.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/15929/Desktop/calculator/src -O0
+!i10b 1
+!s100 LAa5[WkMe3FGeXTGG>9KI3
+!s85 0
+!s108 1567219269.225000
+!s107 C:/Users/15929/Desktop/calculator/src/beep_driver.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/15929/Desktop/calculator/src|C:/Users/15929/Desktop/calculator/src/beep_driver.v|
+!s101 -O0
+vcompute
+IbnHD:S]1l8Xg7PJ^?9CIh2
+VLH6DK_1:ILBN4ZmHZm03^2
+R1
+w1567217997
+8C:/Users/15929/Desktop/calculator/src/compute.v
+FC:/Users/15929/Desktop/calculator/src/compute.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 4En`<c1o6j4<AUMJRd3f03
+!s85 0
+!s108 1567219269.422000
+!s107 C:/Users/15929/Desktop/calculator/src/compute.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/15929/Desktop/calculator/src|C:/Users/15929/Desktop/calculator/src/compute.v|
+!s101 -O0
+vfreq
+IzLNcz=;WCN_eeGbc54>Ce3
+VKM;29[Le0MYX7i8Vgh:Rk3
+R1
+w1567040396
+8C:/Users/15929/Desktop/calculator/src/freq.v
+FC:/Users/15929/Desktop/calculator/src/freq.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 mIl1aacJRS<gG2MdQ288G2
+!s85 0
+!s108 1567219269.859000
+!s107 C:/Users/15929/Desktop/calculator/src/freq.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/15929/Desktop/calculator/src|C:/Users/15929/Desktop/calculator/src/freq.v|
+!s101 -O0
+vkey_scan
+I5FWJ]hAOLH0E=]_DSUdJm0
+Vo5zXUVHa@zhSBk=1_ck]j3
+R1
+w1567173730
+8C:/Users/15929/Desktop/calculator/src/key_scan.v
+FC:/Users/15929/Desktop/calculator/src/key_scan.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 V:4DzJ7cU[C8c7dM9]?VV0
+!s85 0
+!s108 1567219270.145000
+!s107 C:/Users/15929/Desktop/calculator/src/key_scan.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/15929/Desktop/calculator/src|C:/Users/15929/Desktop/calculator/src/key_scan.v|
+!s101 -O0
+vseg7
+IF5V8;eDkM_nUcgmV;?hYD1
+V3i[Y6jk`ldH5PogoL@]`E3
+R1
+w1567172714
+8C:/Users/15929/Desktop/calculator/src/seg7.v
+FC:/Users/15929/Desktop/calculator/src/seg7.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 F7P@X7d>dUU^Md`Q6IMH_1
+!s85 0
+!s108 1567219269.654000
+!s107 C:/Users/15929/Desktop/calculator/src/seg7.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/15929/Desktop/calculator/src|C:/Users/15929/Desktop/calculator/src/seg7.v|
+!s101 -O0
+vtop
+Ih;PMaRgbBFPO@Jc;J@Z791
+V51:;BY9doBP@Kf2H_LMIF1
+R1
+w1567219199
+8C:/Users/15929/Desktop/calculator/src/top.v
+FC:/Users/15929/Desktop/calculator/src/top.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ZZJk45Y4291hd1D<gG^n12
+!s85 0
+!s108 1567219270.001000
+!s107 C:/Users/15929/Desktop/calculator/src/top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/15929/Desktop/calculator/src|C:/Users/15929/Desktop/calculator/src/top.v|
+!s101 -O0
+vtop_tb
+!i10b 1
+!s100 UdhPUm:=M[3TB>6l^4=g<2
+IUU]RLQ3@JfV16;n5Zbk3o3
+VN7^ihbmI9enFg9D=Qco243
+R1
+w1567219180
+8C:/Users/15929/Desktop/calculator/prj/../sim/top_tb.v
+FC:/Users/15929/Desktop/calculator/prj/../sim/top_tb.v
+L0 2
+R2
+r1
+!s85 0
+31
+!s108 1567219270.298000
+!s107 C:/Users/15929/Desktop/calculator/prj/../sim/top_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/15929/Desktop/calculator/prj/../sim|C:/Users/15929/Desktop/calculator/prj/../sim/top_tb.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/15929/Desktop/calculator/prj/../sim -O0
